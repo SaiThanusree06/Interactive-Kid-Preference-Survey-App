@@ -9,9 +9,12 @@ A fun and friendly HTML form designed to collect basic personal and preference i
 - Child-friendly layout
 - Easy to run locally in a browser
 
-## 🖼 Screenshot / Banner
+## 📸 Screenshot
 
-![Survey Banner](child.jpg)
+Here is a preview of the Children's Survey Form:
+
+![Survey Form Screenshot](Screenshot1.png)
+
 
 ## 🧪 Technologies Used
 
