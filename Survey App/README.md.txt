@@ -31,5 +31,6 @@ Here is a preview of the Children's Survey Form:
 
 ChildrenSurveyForm/
 ├── survey.html → The main form page
-├── child.jpg → Optional banner image
+├── style.css → cascading style sheet
 ├── README.md → This documentation file
+├── Screenshot1.png → Image of Banner
