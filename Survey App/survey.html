@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kid Feedback Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Kid Feedback Survey</h1>
+    <p id="description">We want to know more about kids' preferences and activities!</p>
+
+    <form id="survey-form">
+      <!-- Name -->
+      <label id="name-label" for="name">Name:</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+
+      <!-- Email -->
+      <label id="email-label" for="email">Email:</label>
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <!-- Age -->
+      <label id="number-label" for="number">Age:</label>
+      <input
+        id="number"
+        type="number"
+        name="age"
+        placeholder="Enter your age"
+        min="5"
+        max="18"
+      />
+
+      <!-- Dropdown -->
+      <label for="dropdown">Which level of school are you in?</label>
+      <select id="dropdown" name="grade" required>
+        <option value="">-- Select your level --</option>
+        <option value="primary">Primary School</option>
+        <option value="middle">Middle School</option>
+        <option value="high">High School</option>
+      </select>
+
+      <!-- Radio Buttons -->
+      <p>Do you prefer indoor or outdoor activities?</p>
+      <label>
+        <input type="radio" name="activity" value="indoor" required /> Indoor
+      </label><br />
+      <label>
+        <input type="radio" name="activity" value="outdoor" /> Outdoor
+      </label>
+
+      <!-- Checkboxes -->
+      <p>Which hobbies do you enjoy? (Select all that apply)</p>
+      <label>
+        <input type="checkbox" name="hobbies" value="drawing" /> Drawing
+      </label><br />
+      <label>
+        <input type="checkbox" name="hobbies" value="sports" /> Sports
+      </label><br />
+      <label>
+        <input type="checkbox" name="hobbies" value="music" /> Music
+      </label><br />
+      <label>
+        <input type="checkbox" name="hobbies" value="games" /> Games
+      </label>
+
+      <!-- Textarea -->
+      <p>Any comments or suggestions?</p>
+      <textarea name="comments" rows="5" cols="30" placeholder="Share your thoughts..."></textarea>
+
+      <!-- Submit -->
+      <br />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
